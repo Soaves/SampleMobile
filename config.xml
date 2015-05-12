@@ -1,98 +1,21 @@
 
 
-<?xml version="1.0" encoding="UTF-8" ?>
-    <widget xmlns   = "http://www.w3.org/ns/widgets"
-        xmlns:gap   = "http://phonegap.com/ns/1.0"
-        id          = "com.phonegap.example"
-        versionCode = "10" 
-        version     = "1.0.0" >
 
-    <!-- versionCode is optional and Android only -->
 
-    <name>Sample Mobile</name>
-
-    <description>
-        An example of Mobile Development. 
-    </description>
-
-    <author href="https://build.phonegap.com" email="support@phonegap.com">
-        Hardeep Shoker 
-    </author>
-<icon src="icon.png" />
-
-<!-- Define app icon ANDROID Platform. -->
-
-<icon src="icons/android/icon-36-ldpi.png" gap:platform="android" gap:density="ldpi" />
-
-<icon src="icons/android/icon-48-mdpi.png" gap:platform="android" gap:density="mdpi" />
-
-<icon src="icons/android/icon-72-hdpi.png" gap:platform="android" gap:density="hdpi" />
-
-<icon src="icons/android/icon-96-xhdpi.png" gap:platform="android" gap:density="xhdpi" />
-
-<!-- Define app icon BLACKBERRY Platform. -->
-
-<icon src="icons/blackberry/icon-80.png" gap:platform="blackberry" />
-
-<icon src="icons/blackberry/icon-80.png" gap:platform="blackberry" gap:state="hover"/>
-
-<!-- Define app icon IOS Platform. -->
-
-<icon src="icons/ios/icon.png" gap:platform="ios" width="57" height="57" />
-
-<icon src="icons/ios/icon-72.png" gap:platform="ios" width="72" height="72" />
-
-<icon src="icons/ios/icon_at_2x.png" gap:platform="ios" width="114" height="114" />
-
-<!-- retina iPad support: PhoneGap 2.5.0+ only -->
-
-<icon src="icons/ios/icon-72_at_2x.png" gap:platform="ios" width="144" height="144" />
-
-<!-- Define app icon WEBOS Platform. -->
-
-<icon src="icons/webos/icon-64.png" gap:platform="webos" />
-
-<icon src="icons/windows-phone/icon-48.png" gap:platform="winphone" />
-
-<!-- Define app icon WINPHONE Platform. -->
-
-<icon src="icons/windows-phone/icon-173.png" gap:platform="winphone" gap:role="background" />
+    <widget id="com.example.Mobile" version="0.0.1">
+        <name>Mobile Sample</name>
+        <description>
+            A sample Apache Cordova application that responds to the deviceready event.
+        </description>
+        <author email="dev@callback.apache.org" href="http://phonegap.com">
+            Apache Cordova Team
+        </author>
+        <content src="index.html" />
+        <access origin="*" />
+    </widget
 
 
 
-<!-- Define app splash screen for ANDROID platform. -->
 
-<gap:splash src="splash/android/screen-ldpi-portrait.png" gap:platform="android" gap:density="ldpi" />
 
-<gap:splash src="splash/android/screen-mdpi-portrait.png" gap:platform="android" gap:density="mdpi" />
-
-<gap:splash src="splash/android/screen-hdpi-portrait.png" gap:platform="android" gap:density="hdpi" />
-
-<gap:splash src="splash/android/screen-xhdpi-portrait.png" gap:platform="android" gap:density="xhdpi" />
-
-<!-- Define app splash screen for Blackberry platform. -->
-
-<gap:splash src="splash/blackberry/screen-225.png" gap:platform="blackberry" />
-
-<!-- Define app splash screen for IOS platform. -->
-
-<gap:splash src="splash/ios/Default.png" width="320" height="480" />
-
-<gap:splash src="splash/ios/Default_at_2x.png" width="640" height="960" />
-
-<gap:splash src="splash/ios/Default_iphone5.png" width="640" height="1136" />
-
-<gap:splash src="splash/ios/Default-Landscape.png" width="1024" height="768" />
-
-<gap:splash src="splash/ios/Default-Portrait.png" width="768" height="1024" />
-
-<gap:splash src="splash/ios/Default-Landscape_at_2x.png" width="2048" height="1496" />
-
-<gap:splash src="splash/ios/Default-Portrait_at_2x.png" width="1536" height="2008" />
-
-<!-- Define app splash screen for WINPHONE platform. -->
-
-<gap:splash src="splash/windows-phone/screen-portrait.jpg" gap:platform="winphone" />
-<gap:splash src="splash.png" gap:platform="android" width="320" height="480" />
-</widget>
 
